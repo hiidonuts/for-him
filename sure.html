@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>꒰ For Aiziel ꒱</title>
+
+    <link rel="icon" type="image/x-icon" href="ribbon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="container">
+            <div class="pic">
+                <img src="mwah.jpg" alt="">
+            </div>
+        
+            <h1>Thank you for accepting ♡</h1>
+            <p>Thankieess :3</p>  
+        </div>
+
+        <script>
+            function downloadFile(url) 
+            {
+                var link = document.createElement('a');
+                link.href = url;
+                link.download = '(ꈍᴗꈍ)♡.docx'; 
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+
+            window.onload = function() 
+            {
+                downloadFile('"C:\Users\Venice Voo\OneDrive\Documents\for Aiziel\(ꈍᴗꈍ)♡.pdf"');
+            };
+        </script>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body
+{
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1, p { color: #3b3434; }
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+}
+
+.container .pic img 
+{ 
+    max-width: 300px; 
+    border-radius: 8px;
+}
+
+.container .btn
+{
+    display: flex;
+    gap: 25px;
+}
+
+.btn a
+{
+    text-decoration: none;
+    color: #514848;
+    background: #F3EEEA;
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0.5rem 1rem 3rem hsla(0, 3%, 17%, 0.3);
+}
